@@ -4,15 +4,15 @@
 #include <LiquidCrystal_I2C.h>
 #include "ESP32_MailClient.h"
 
-const char* ssid = "2WIRE832";
-const char* password = "0359992962";
+const char* ssid = "ENTER SSID";
+const char* password = "ENTERYOURPASSWORD";
 
-#define emailSenderAccount    "esp32testemail@gmail.com"    
-#define emailSenderPassword   "password12$"
-#define emailRecipient        "dhymes16@apu.edu"
+#define emailSenderAccount    "MAKETESTEMIAL"    
+#define emailSenderPassword   "SENDER EMIAL PASSWORD"
+#define emailRecipient        "RECIPIENT ADDRESS"
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
-#define emailSubject          "ESP32 Test Subject"
+#define emailSubject          "EMAIL SUBJECT"
 
 
 SMTPData smtpData;
