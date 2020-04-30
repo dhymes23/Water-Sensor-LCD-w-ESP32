@@ -10,6 +10,9 @@ const char* password = "ENTERYOURPASSWORD";
 #define emailSenderAccount    "MAKETESTEMIAL"    
 #define emailSenderPassword   "SENDER EMIAL PASSWORD"
 #define emailRecipient        "RECIPIENT ADDRESS"
+// This smtp server for gmail only so 
+// your going to have to look up the 
+// smtp server for your address 
 #define smtpServer            "smtp.gmail.com"
 #define smtpServerPort        465
 #define emailSubject          "EMAIL SUBJECT"
